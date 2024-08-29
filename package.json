@@ -9,16 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lit-protocol/auth-helpers": "^6.4.10",
+    "@lit-protocol/constants": "^6.4.10",
+    "@lit-protocol/lit-auth-client": "^6.4.10",
+    "@lit-protocol/lit-node-client": "^6.4.10",
+    "@lit-protocol/types": "^6.4.10",
+    "@simplewebauthn/browser": "^10.0.0",
+    "ethers": "^5.7.2",
+    "next": "14.2.5",
+    "nostr-tools": "^2.7.2",
+    "pino-pretty": "^11.2.2",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
   }
 }
